@@ -1,6 +1,6 @@
 # Weather Forecast Application
 
-![Weather Forecast Banner](https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=1600)
+![Weather Forecast Banner](https://images.pexels.com/photos/1431822/pexels-photo-1431822.jpeg?auto=compress&cs=tinysrgb&w=1600)
 
 <div align="center">
 
@@ -25,8 +25,7 @@
 ## 📸 Screenshots
 
 <div align="center">
-<img src="https://images.pexels.com/photos/1431822/pexels-photo-1431822.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Clear Sky" width="45%">
-<img src="https://images.pexels.com/photos/1756632/pexels-photo-1756632.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Sunset" width="45%">
+<img src="https://images.pexels.com/photos/531756/pexels-photo-531756.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Clear Sky" width="75%">
 </div>
 
 ## 🚀 Getting Started
