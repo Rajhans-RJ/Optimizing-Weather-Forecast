@@ -1,0 +1,116 @@
+* {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ body {
+     font-family: 'Arial', sans-serif;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     min-height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: #333;
+     transition: background-image 0.5s ease-in-out;
+ }
+ 
+ .container {
+     background-color: rgba(255, 255, 255, 0.8);
+     padding: 2rem;
+     border-radius: 15px;
+     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+     backdrop-filter: blur(10px);
+     text-align: center;
+     max-width: 400px;
+     width: 90%;
+ }
+ 
+ h1 {
+     font-size: 2.5rem;
+     margin-bottom: 1rem;
+     color: #4a4a4a;
+ }
+ 
+ .date-time {
+     margin-bottom: 1rem;
+     font-size: 1rem;
+     color: #666;
+ }
+ 
+ form {
+     margin-bottom: 2rem;
+ }
+ 
+ .search-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ input[type="text"] {
+     background-color: rgba(255, 255, 255, 0.9);
+     border: none;
+     border-radius: 30px 0 0 30px;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+     font-size: 1rem;
+     padding: 0.8rem 1.5rem;
+     width: calc(100% - 50px);
+     transition: box-shadow 0.3s ease;
+ }
+ 
+ input[type="text"]:focus {
+     outline: none;
+     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+ }
+ 
+ #search-btn {
+     background-color: #4a90e2;
+     border: none;
+     border-radius: 0 30px 30px 0;
+     color: white;
+     cursor: pointer;
+     padding: 0.8rem;
+     transition: background-color 0.3s ease;
+ }
+ 
+ #search-btn:hover {
+     background-color: #357abd;
+ }
+ 
+ .weather {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ 
+ .weather h2 {
+     font-size: 3.5rem;
+     margin-bottom: 0.5rem;
+     display: flex;
+     align-items: center;
+ }
+ 
+ .weather-icon {
+     width: 64px;
+     height: 64px;
+     margin-right: 0.5rem;
+ }
+ 
+ .weather small {
+     font-size: 1.2rem;
+     color: #777;
+     margin-bottom: 0.5rem;
+ }
+ 
+ .weather p {
+     font-size: 1rem;
+     color: #555;
+ }
+ 
+ .error {
+     color: #ff0000;
+     font-weight: bold;
+ }
