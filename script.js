@@ -12,7 +12,6 @@ const backgroundImages = [
     'https://images.pexels.com/photos/531756/pexels-photo-531756.jpeg?auto=compress&cs=tinysrgb&w=1600',
     'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=1600',
     'https://images.pexels.com/photos/2775196/pexels-photo-2775196.jpeg?auto=compress&cs=tinysrgb&w=1600',
-    'https://images.pexels.com/photos/1756632/pexels-photo-1756632.jpeg?auto=compress&cs=tinysrgb&w=1600'
 ];
 
 function setRandomBackground() {
